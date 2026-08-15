@@ -1,5 +1,5 @@
 package AtividadesemJava;
-import java.util.Random;
+import java.util.Random; 
 
 public class Matriz {
     public static void main(String[] Args){ //Main da classe
@@ -16,7 +16,7 @@ public class Matriz {
         
         for(int i = 0; i < 3; i++){ //Matriz sendo printada
             for(int j = 0; j < 3; j++){
-                System.out.print(matriz[i][j] + " ");
+                System.out.print(matriz[i][j] + ", ");
             }
             System.out.println();
         }
@@ -36,7 +36,7 @@ public class Matriz {
         //Impressao da matriz
         for (int i = 0; i < 2; i ++){
             for(int j = 0; j < 5; j++){
-                System.out.print(matriz2[i][j] + " "); //Espaço é utlizado para melhorar a legibilidade da matriz
+                System.out.print(matriz2[i][j] + ", "); //Espaço é utlizado para melhorar a legibilidade da matriz
             }
             System.out.println();//quebra de linha da matriz
         }
@@ -75,7 +75,7 @@ public class Matriz {
         }
 
         float media = (float) soma / 10; 
-
+        //Todos os prints
         System.out.println("O maior numero da matriz é: " + maior);
         
         System.out.println("O menor numero da matriz é: " + menor);
