@@ -8,7 +8,7 @@ public class Funcaovetor {
 
         Random gerador = new Random();
 
-        for(int i = 0; i < 5; i++){
+        for(int i = 0; i < vetor.length; i++){
             vetor[i]= gerador.nextInt( 50) + 1;
 
         }
