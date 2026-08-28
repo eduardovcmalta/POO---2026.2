@@ -16,7 +16,6 @@ public class Aluno {
     public String getNome() {
         return nome;
     }
-
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -24,7 +23,6 @@ public class Aluno {
     public int getIdade() {
         return idade;
     }
-
     public void setIdade(int idade) {
         this.idade = idade;
     }
@@ -32,7 +30,6 @@ public class Aluno {
     public int getMatricula() {
         return matricula;
     }
-
     public void setMatricula(int matricula) {
         this.matricula = matricula;
     }
@@ -40,9 +37,9 @@ public class Aluno {
     public boolean[] getPresenca() {
         return presenca;
     }
-
     public void setPresenca(boolean[] presenca) {
         this.presenca = presenca;
     }
 
+    public 
 }
