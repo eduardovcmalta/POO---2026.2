@@ -1,4 +1,4 @@
-package Aula1;
+package Aula10;
 import java.util.Scanner;
 
 public class Introducao {

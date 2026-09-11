@@ -1,11 +1,11 @@
-package ObjetoClasseTipo;
+package Aula30;
 
-public class Main{
-    static void main(String[] args) {
+public class Main {
+    public static void main(String[] args) {
         Cliente c1 = new Cliente("Carlos", 30.0);
 
         c1.calculo();
-        c1.setEntrada(Ticket.MEIA_ENTRADA);
+        c1.entrada = Ticket.MEIA_ENTRADA;
 
         c1.calculo();
         System.out.println(30 * Ticket.NORMAL.desconto);

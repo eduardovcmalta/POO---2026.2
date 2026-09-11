@@ -1,4 +1,4 @@
-package ExercicioemSala;
+package Aula50;
 
 public class Estudante_Monitor extends Estudante {
     // Usei String para o horario (ex: "14:00 - 16:00"), pois e mais flexivel

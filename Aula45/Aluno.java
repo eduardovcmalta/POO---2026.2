@@ -1,4 +1,4 @@
-package Exercicios;
+package Aula45;
 
 public class Aluno {
     private String nome;
@@ -41,5 +41,4 @@ public class Aluno {
         this.presenca = presenca;
     }
 
-    public 
 }

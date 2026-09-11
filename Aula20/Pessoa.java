@@ -1,4 +1,4 @@
-package Aula2;
+package Aula20;
 
 public class Pessoa{
     public String nome;
