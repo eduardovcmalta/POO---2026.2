@@ -25,11 +25,5 @@ public class Exercicios {
         double soma = 0.0;
         double media = soma / 2;
         int i;
-        for(i = 0; i < nota.size(); i++){
-            if( nota[i] != null){
-
-            }
-        }
-
     } 
 }
