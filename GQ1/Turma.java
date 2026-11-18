@@ -17,7 +17,7 @@ public class Turma {
     public void setEntrada(String entrada) {
         this.entrada = entrada;
     }
-    public Prova[] GetProvas(){
+    public Prova[] getProvas(){
         return provas;
     }
 

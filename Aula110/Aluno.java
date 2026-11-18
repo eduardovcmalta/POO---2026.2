@@ -13,6 +13,21 @@ public class Aluno {
         this.nota = nota;
     }
 
+    public String getRA(){
+        return RA;
+    }
+    public void setRA(String RA){
+        this.RA = RA;
+    }
+
+    public String getNome(){
+        return nome;
+    }
+
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
     public Aluno(String nome, String RA){
         this.nome = nome;
         this.RA = RA;
@@ -26,5 +41,5 @@ public class Aluno {
             nota = (nota1 + nota2) / 2;
         }
     }
-    public void matricular() throws RuntimeException;
+    public void matricular(setNome(), setRA()) throws RuntimeException;
 }
